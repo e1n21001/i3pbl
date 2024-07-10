@@ -2,7 +2,7 @@ import cv2
 import pyautogui
 import numpy as np
 
-# Haar Cascadeのロード
+# Haar Cascadeのロード final
 eye_cascade_path = cv2.data.haarcascades + 'haarcascade_eye.xml'
 eye_cascade = cv2.CascadeClassifier(eye_cascade_path)
 
